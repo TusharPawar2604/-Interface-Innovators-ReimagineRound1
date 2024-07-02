@@ -171,7 +171,8 @@ function LocomotiveScroll(){
 }
 
 function ImgScroller(){
-    var swiper = new Swiper(".mySwiper", {
+
+      var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -181,14 +182,8 @@ function ImgScroller(){
         },
       });
 }
-
-
-
-
-
 navbar()
 timer()
 likeFeature()
-customcrsr()
 ImgScroller()
 LocomotiveScroll()
