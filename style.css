@@ -440,7 +440,7 @@ font-weight: 600;
 .nav2 {
     width: 100vw;
     margin-top: 1vw;
-    background-color:  #FAF9F8 !important;
+    background-color: #FAF9F8;
 }
 #nav2-elements {
     display: flex;
@@ -448,7 +448,6 @@ font-weight: 600;
     gap: 2vw;
     position: relative;
     justify-content: center;
-   
 }
 
 #nav2-elements h2{
